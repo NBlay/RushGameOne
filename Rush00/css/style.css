@@ -1,0 +1,173 @@
+*{
+  font-family: Montserrat;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.21);
+}
+
+@media screen and (min-width:350px) {
+  #main-block{
+    display: block;
+    margin-left: 35%;
+  }
+  aside{
+    width: auto;
+
+  }
+
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.inline-block{
+  display: inline-block;
+ margin-left: 35%;
+}
+
+header>button{
+  font-weight: bold;
+}
+
+aside>a{
+  font-weight: bold;
+  margin-left: 55px;
+}
+
+header{
+  width: 100vw;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+aside{
+  width: 268px;
+  left: 13px;
+  top: 140px;
+  border: 3px black solid;
+  display: block;
+  border-radius: 15px;
+  background-color: #4690FF;
+}
+
+aside>h3, p, a{
+  background: none;
+}
+
+h4{
+ text-shadow: 0.3em 0.5em 0.2em black;
+ color: white;
+ background: none;
+}
+
+h5{
+  text-shadow: 0.3em 0.5em 0.2em black;
+  color: white;
+  background: none;
+}
+
+footer{
+  height: 93px;
+  background: linear-gradient(
+    to left,
+    #514EF6,
+    #4690FF
+    );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer>a{
+  background: none;
+}
+
+.anime{
+  height: 107px;
+  width: 231px;
+  border: solid 2px black;
+}
+
+.block-jv{
+  width: 487px;
+  height: 493px;
+}
+
+.mini-icons{
+  height: 25px;
+  width: 25px;
+}
+
+.navButton{
+  height: 68px;
+  width: 181px;
+  background-color: inherit;
+  border: solid black 1px;
+  border-radius: 30px;
+  margin: 5px;
+  box-shadow:
+
+}
+
+.pic-JV{
+  width: 325px;
+  height: 153px;
+  position: center;
+  background: none;
+  border: solid 2px black;
+}
+
+.social-logos{
+  height: 75px;
+  width: 75px;
+}
+
+#about{
+  font-size: 18px;
+  padding-top: 45px;
+  text-align: center;
+}
+
+#block-anime{
+  width: 487px;
+  height: 480px;
+  border: 3px black solid;
+  background-color: #514EF6;
+  border-radius: 15px;
+}
+
+#block-JV{
+  width: 487px;
+  height: 480px;
+  border: 3px black solid;
+  background-color:#514EF6;
+  border-radius: 15px;
+}
+
+#main-block{
+  margin-top: 150px;
+  justify-content: space-around;
+}
+
+#social-block{
+  justify-content: center;
+}
+
+#topBar{
+  background: linear-gradient(
+    to left,
+    #514EF6,
+    #4690FF
+    );
+}
